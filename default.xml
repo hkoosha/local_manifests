@@ -4,7 +4,10 @@
   <remote name="RaspberryPiFan" fetch="git://github.com/RaspberryPiFan"/>
   <remote name="arpi" fetch="git://github.com/android-rpi/"/> 
   <remote name="mesa" fetch="git://github.com/mesa3d/"/> 
- 
+  
+  <remove-project name="platform/external/mesa3d"/>
+  <project path="external/mesa3d" name="mesa" revision="master" remote="RaspberryPiFan"/>
+  <project path="external/drm_gralloc" name="external_drm_gralloc" revision="v3d" remote="RaspberryPiFan"/>
 
   <project path="kernel/rpi" name="linux" revision="rpi-4.19.y" remote="RaspberryPi"/>
   <project path="hardware/rpi" name="hardware_rpi" revision="android10" remote="RaspberryPiFan"/>
