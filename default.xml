@@ -3,10 +3,10 @@
   <remote name="RaspberryPi" fetch="git://github.com/raspberrypi"/>
   <remote name="RaspberryPiFan" fetch="git://github.com/RaspberryPiFan"/>
   <remote name="arpi" fetch="git://github.com/android-rpi/"/> 
-  <remote name="mesa" fetch="git://github.com/mesa3d/"/> 
+
  
 
-  <project path="kernel/rpi" name="linux" revision="rpi-4.19.y" remote="RaspberryPi"/>
+  <project path="kernel/rpi" name="linux" revision="rpi-4.19.y" remote="RaspberryPiFan"/>
   <project path="hardware/rpi" name="hardware_rpi" revision="android10" remote="RaspberryPiFan"/>
   <project path="device/brcm/rpi3" name="device_brcm_rpi4" revision="android-10" remote="RaspberryPiFan"/>
   <project path="vendor/arpi/RpLauncher" name="RpLauncher" revision="android10" remote="arpi"/>
