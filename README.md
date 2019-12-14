@@ -2,7 +2,7 @@
 
 ### If you need help:
 Join my discord server!
-https://discord.gg/AQcrHbD
+https://discord.gg/5StCRpX
 
 
 Lineage OS? Look at the branch Lineage-17
