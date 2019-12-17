@@ -14,4 +14,4 @@ Use -j[n] option on sync & build steps, if build host has a good number of CPU c
 
 ### If you need help:
 Join my discord server!
-https://discord.gg/5StCRpX
+https://discord.gg/kf4ZPqP
