@@ -3,14 +3,16 @@
   <remote name="RaspberryPi" fetch="git://github.com/raspberrypi"/>
   <remote name="RaspberryPiFan" fetch="git://github.com/RaspberryPiFan"/>
   <remote name="arpi" fetch="git://github.com/android-rpi/"/> 
+  <remote name="android_default" fetch="https://android.googlesource.com/"/>
 
  
-
+  <project path="external/drm_gralloc" name="platform/external/drm_gralloc" revison="master" remote="android_default">
   <project path="kernel/rpi" name="linux" revision="rpi-4.19.y" remote="RaspberryPiFan"/>
   <project path="hardware/rpi" name="hardware_rpi" revision="android10" remote="RaspberryPiFan"/>
   <project path="device/brcm/rpi3" name="device_brcm_rpi4" revision="android-10" remote="RaspberryPiFan"/>
   <project path="vendor/arpi/RpLauncher" name="RpLauncher" revision="android10" remote="arpi"/>
 
+  
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/crosshatch-kernel" />  
   <remove-project name="device/google/marlin-kernel" />
