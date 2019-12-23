@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="RaspberryPi" fetch="git://github.com/raspberrypi"/>
-  <remote name="RaspberryPiFan" fetch="git://github.com/RaspberryPiFan"/>
+  <remote name="RaspberryPi" fetch="git://github.com/raspberrypi/"/>
+  <remote name="RaspberryPiFan" fetch="git://github.com/RaspberryPiFan/"/>
   <remote name="arpi" fetch="git://github.com/android-rpi/"/> 
   <remote name="android_default" fetch="https://android.googlesource.com/"/>
 
