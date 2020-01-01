@@ -5,10 +5,12 @@
   <remote name="arpi" fetch="git://github.com/android-rpi/"/> 
   <remote name="android_default" fetch="https://android.googlesource.com/"/>
   <remote name="mesa" fetch="https://gitlab.freedesktop.org/mesa/"/>
+    <remote name="peyo" fetch="https://github.com/peyo-hd"/>
  
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" revision="master" remote="android_default"/>
+
   <remove-project name="platform/external/mesa3d"/>
-  <project path="external/mesa3d" name="mesa" revision="master" remote="mesa"/>
+  <project path="external/mesa3d" name="external_mesa3d" revision="v3d" remote="RaspberryPiFan"/>
   <project path="kernel/rpi" name="linux" revision="rpi-4.19.y" remote="RaspberryPiFan"/>
   <project path="hardware/rpi" name="hardware_rpi" revision="android10" remote="RaspberryPiFan"/>
   <project path="device/brcm/rpi3" name="device_brcm_rpi4" revision="android-10" remote="RaspberryPiFan"/>
