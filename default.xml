@@ -7,8 +7,10 @@
   <remote name="mesa" fetch="https://gitlab.freedesktop.org/mesa/"/>
     <remote name="peyo" fetch="https://github.com/peyo-hd"/>
  
-  <project path="external/drm_gralloc" name="platform/external/drm_gralloc" revision="master" remote="android_default"/>
-
+<remove-project name="platform/external/drm_gralloc"/>
+  <project path="external/drm_gralloc" name="external_drm_gralloc" revision="v3d" remote="peyo"/>
+  <remove-project name="platform/external/libdrm"/>
+  <project path="external/libdrm" name="platform/external/libdrm" revision="pie-cuttlefish-testing"/>
   <remove-project name="platform/external/mesa3d"/>
   <project path="external/mesa3d" name="external_mesa3d" revision="v3d" remote="RaspberryPiFan"/>
   <project path="kernel/rpi" name="linux" revision="rpi-4.19.y" remote="RaspberryPiFan"/>
